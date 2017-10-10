@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="banksuite">
+
+	<test name="banktest1">
+	
+		<classes>
+					<class name="com.testng.Annotations.fundTransfer" />
+		</classes>
+	</test>
+	
+	<test name="banktest2">
+	
+		<classes>
+					<class name="com.testng.Annotations.balanceEnquiry" />
+		</classes>
+	</test>
+	
+	
+</suite>
